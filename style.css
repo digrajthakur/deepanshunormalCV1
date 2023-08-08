@@ -1,0 +1,72 @@
+/* Apply some basic styling to the body */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* Style for the sections */
+
+.details,
+.skills,
+.objective,
+.social,
+.project,
+.experience,
+.education {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+
+
+/* Styling for the h1 tags */
+
+h1 {
+    margin-top: 0;
+}
+
+
+/* Styling for the h3 tags */
+
+h3 {
+    margin: 10px 0;
+}
+
+
+/* Styling for the h5 tags */
+
+h5 {
+    margin: 10px 0;
+}
+
+
+/* Styling for the links */
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Media Queries for responsiveness */
+
+@media (max-width: 768px) {
+    .details,
+    .skills,
+    .objective,
+    .social,
+    .project,
+    .experience,
+    .education {
+        margin: 10px;
+    }
+}
